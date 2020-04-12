@@ -19,7 +19,8 @@ int main(void)
 		cout << "#" << tc << " ";
 		for (int i = 0; i < n; i++)
 			if (s[i]) cout << i + 1 << " ";
-		cout << '\n';
+		//cout << '\n';
+		cout << endl;
 	}
 	return 0;
 }
